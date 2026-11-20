@@ -11,12 +11,12 @@
 class Fortkeep < Formula
   desc "Security checkup for developer Macs, run with your coding agent"
   homepage "https://github.com/b0dea/fortkeep"
-  url "https://github.com/b0dea/fortkeep/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "96811625dabd2e0e2fb44c02ae564b65261aff1e32b647eb8b02dc3fb651fb92"
+  url "https://github.com/b0dea/fortkeep/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "19d5e36429dd6ac406655d0e5cb29dde29b849ff54e7f6448a9f36ed0128963d"
   license "MIT"
 
   # The release tag's commit: install.sh refuses a clone whose tag isn't exactly this commit.
-  COMMIT = "52ad983e503f55c03d33aa83f66e0e86b2e22590"
+  COMMIT = "3f973c3b4d35e2549a0b472a956d044e705b62c8"
 
   depends_on macos: :sequoia
 
